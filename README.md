@@ -5,6 +5,15 @@ These are basic examples of classification using the MNIST dataset. The four pro
 
 The parse_data program takes in the MNIST files and parses them into a numpy array that can be used by scikit. 
 
+
+## Results
+### PCA onto 2D
+![PCA2D](https://github.com/prchandr/MNIST-Classification/blob/main/images/pca2D.png?raw=true)
+
+### PCA onto 3D
+![PCA3D](https://github.com/prchandr/MNIST-Classification/blob/main/images/pca3D.png?raw=true)
+
+
 ## Usage
 The libraries used were numpy, matplotlib, and scikit learn. The 64-bit version of Python 3.8 is recommended to prevent memory issues. Once the requisite libraries are installed, the extracted MNIST files must be kept in the same directory as the programs. Then simply running the programs will perform the classification and output the error rates for the training and testing. 
 
